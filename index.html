@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bookmark Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>📖 Bookmark Tracker</h1>
+
+  <input type="text" id="bookName" placeholder="Book Name">
+  <input type="number" id="pageNumber" placeholder="Page Number" min="1">
+  <input type="number" id="lineNumber" placeholder="Line Number" min="1">
+  <button onclick="addBookmark()">Save Bookmark</button>
+
+  <div class="book-list" id="bookList"></div>
+
+  <div id="details"></div>
+
+ <script src="script.js"></script>
+
+</body>
+</html>
